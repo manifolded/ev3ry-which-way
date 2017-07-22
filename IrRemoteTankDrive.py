@@ -16,7 +16,7 @@ assert rMotor.connected
 assert lMotor.connected
 primarySpeed = 90.0
 
-rc = RemoteControl();
+rc = RemoteControl()
 assert rc.connected
 
 bugleBaseTone = 440
