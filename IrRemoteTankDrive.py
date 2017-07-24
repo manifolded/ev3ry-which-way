@@ -14,7 +14,7 @@ rMotor = LargeMotor('outC')
 lMotor = LargeMotor('outB')
 assert rMotor.connected
 assert lMotor.connected
-primarySpeed = 90.0
+primarySpeed = 750.0
 
 rc = RemoteControl()
 assert rc.connected
