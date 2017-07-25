@@ -94,8 +94,6 @@ def grab(motor, led_group, direction):
     return on_press
 
 #Assign event handler to each of the remote buttons on channel 2
-rcGripChan.on_red_up    =
-rcGripChan.on_red_down  =
 rcGripChan.on_blue_up   = grab(gripMotor, Leds.RIGHT, 1)
 rcGripChan.on_blue_down = grab(gripMotor, Leds.RIGHT, -1)
 
